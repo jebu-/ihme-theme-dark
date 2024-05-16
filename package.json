@@ -1,0 +1,27 @@
+{
+  "name": "ihme-color-theme-dark",
+  "displayName": "IHME Color Theme (Dark)",
+  "description": "A simple dark theme that utilizes the IHME color palette (healthdata.org)",
+  "version": "0.0.1",
+  "publisher": "BrandonFoth-IHME",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#303232",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "IHME Color Theme (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/IHME Color Theme (Dark)-color-theme.json"
+      }
+    ]
+  }
+}
